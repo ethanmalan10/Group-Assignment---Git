@@ -1,11 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section 3 - Group 7 loves IS 403</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --byu-blue: #002255;
+      --byu-light: #f9fafb;
+      --js-yellow: #f7df1e;
+    }
+
+    * {box-sizing: border-box;}
+    html, body {height: 100%;}
+
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, var(--byu-blue) 60%, var(--js-yellow) 100%);
+      color: var(--byu-light);
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem 3rem;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      margin: 0;
+    }
+
+    button {
+      margin-top: 2rem;
+      background: var(--js-yellow);
+      color: #000;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background: #ffe800;
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="container">
+    <h1>Section 3 - Group 7 loves IS 403</h1>
+    <button onclick="showMessage()">Go Cougars</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("Section 3 - Group 7 loves IS 403!");
+    }
+  </script>
 </body>
 </html>
