@@ -63,6 +63,7 @@
   <div class="container">
     <h1>Section 3 - Group 7 loves IS 403</h1>
     <h1>This is what Will added!</h1>
+    <h2>Isaac added this line of text<h2>
     <button onclick="showMessage()">Go Cougars</button>
   </div>
 
